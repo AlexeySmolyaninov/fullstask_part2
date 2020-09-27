@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# exclude node dependencies
+# can be run by npm install in the root of each node project 
+node_modules/
+
+# exlucde .env file which contains sensetive information
+data_for_countries/.env
